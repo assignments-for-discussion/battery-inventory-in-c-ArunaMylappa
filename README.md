@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 #define TestBattery
+void main()
 {
 int array[]=400,charge=high,uncharge=low,recharge=medium;
 printf("enter the number of battery");
