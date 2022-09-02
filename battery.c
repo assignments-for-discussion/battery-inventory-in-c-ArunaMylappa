@@ -1,14 +1,15 @@
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
-#define TestBattery
+#define TestBattery()
 void main()
 {
 struct battery{
 int low;
 int medium;
 int high;
-};
+int uncharge,recharge;
+}
 int n;
 printf("enter the number of battery");
 scanf("%d", &n);
@@ -23,7 +24,7 @@ battery(stdin);
   battery(stdin);
   
  }
- else if
+ else if(recharge<900)
  {
   printf("battery is medium);
     scanf("%s",high[i].battery);
@@ -34,15 +35,14 @@ battery(stdin);
   printf("battery is high");
   scanf("%s",high[i].battery);
   battery(stdin);
-  
- }
+  }
  printf("****battery history****")'
  printf("-------\n");
  printf(low|medium|high);
  for(i=0;i<n;i++)
- printf("%d %-15s %-d %-5d %-5d%/d%d\n",i+1.battery[i]);
+ printf("%d %-400s %-d %-900d %-918d%/d%d\n",i+1.battery[i]);
 }
-function TestBattery
+TestBattery()
 {
 int pass;
 count pass;
@@ -55,7 +55,6 @@ else
 {
 printf(test is not passed")
 pass--;
-}
 }
 getch();
 }
