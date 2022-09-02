@@ -1,12 +1,18 @@
 #include<stdio.h>
+#include<conio.h>
 #include<math.h>
 #define TestBattery
 void main()
 {
-int array[]=400,charge=high,uncharge=low,recharge=medium;
+struct battery{
+int low;
+int medium;
+int high;
+};
+int n;
 printf("enter the number of battery");
-scanf("%d", &array[]);
-for(int i=1;i>=array[];i++)
+scanf("%d", &n);
+for(int i=1;i<=n;i++)
 {
  {
   printf("battery is cahrging");
