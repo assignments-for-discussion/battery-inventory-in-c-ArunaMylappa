@@ -36,6 +36,11 @@ battery(stdin);
   battery(stdin);
   
  }
+ printf("****battery history****")'
+ printf("-------\n");
+ printf(low|medium|high);
+ for(i=0;i<n;i++)
+ printf("%d %-15s %-d %-5d %-5d%/d%d\n",i+1.battery[i]);
 }
 function TestBattery
 {
@@ -52,5 +57,5 @@ printf(test is not passed")
 pass--;
 }
 }
-return 0;
+getch();
 }
