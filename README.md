@@ -12,22 +12,29 @@ int high;
 int n;
 printf("enter the number of battery");
 scanf("%d", &n);
-for(int i=1;i<=n;i++)
+for(int i=1;i<n;i++)
+battery(stdin);
 {
- {
-  printf("battery is cahrging");
- }
+
  if(uncharge<400)
  {
   printf("battery is low");
+  scanf("%s",medium[i].battery);
+  battery(stdin);
+  
  }
  else if
  {
   printf("battery is medium);
+    scanf("%s",high[i].battery);
+  battery(stdin);
  }
   else
  {
   printf("battery is high");
+  scanf("%s",high[i].battery);
+  battery(stdin);
+  
  }
 }
 function TestBattery
